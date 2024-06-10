@@ -1,0 +1,52 @@
+/* Set default styles for the body */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set default font */
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styles for main heading */
+h1 {
+    text-align: center; /* Center align heading */
+    color: #333; /* Dark gray text */
+}
+
+/* Styles for the container holding messages */
+.container {
+    width: 80%; /* Set container width */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Add padding */
+}
+
+/* Styles for the messages area */
+#messages {
+    overflow-y: scroll; /* Enable vertical scrollbar */
+    height: 200px; /* Set fixed height */
+    border: 1px solid #ccc; /* Gray border */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add space below */
+    background-color: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Scrollbar styles */
+#messages::-webkit-scrollbar {
+    width: 8px; /* Set scrollbar width */
+}
+
+/* Styling for scrollbar thumb */
+#messages::-webkit-scrollbar-thumb {
+    background-color: #888; /* Gray color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Styling for scrollbar track */
+#messages::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+
+
